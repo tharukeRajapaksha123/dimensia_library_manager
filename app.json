@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "dimensia_library_manager",
+    "slug": "dimensia_library_manager"
+  }
+}
