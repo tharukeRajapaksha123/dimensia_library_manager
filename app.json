@@ -5,6 +5,22 @@
       "bundler": "metro"
     },
     "name": "dimensia_library_manager",
-    "slug": "dimensia_library_manager"
+    "slug": "dimensia_library_manager",
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9a58f2e7-110a-47c5-b55b-93bda89e6b1a"
+      }
+    },
+    "android": {
+      "package": "com.tharuke123.dimensia_library_manager"
+    }
   }
 }
